@@ -152,7 +152,7 @@ const TableOfContents = ({ toc }: { toc: TableOfContentsItem[] }) => (
       <h2
         className={`${druk.className} font-semibold text-lg mb-4 capitalize underline text-slate-700 decoration-orange-500 underline-offset-[3px]`}
       >
-        What&#39;s Inside?🧐
+        Table of Contents
       </h2>
       <ul>
         {toc.map((item, index) => (
