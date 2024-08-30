@@ -3,7 +3,7 @@ const nextConfig = {
     images: {
         domains: ["dev-urbantyres.pantheonsite.io", "dev-padre.pantheonsite.io"],
     },
-    compress: true,
+    compress: false,
 };
 
 export default nextConfig;
