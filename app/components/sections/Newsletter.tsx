@@ -53,7 +53,7 @@ const Newsletter = () => {
             </div>
             <div className="max-w-[400px] mx-auto">
               <p className="text-slate-600 text-lg text-center mb-7 font-normal">
-                Sign up and I'll send you great tyre care tips and driving
+                Sign up and I&#39;ll send you great tyre care tips and driving
                 advice!
               </p>
               <button

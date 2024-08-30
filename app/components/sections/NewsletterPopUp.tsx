@@ -62,7 +62,7 @@ const NewsletterPopUp: React.FC<NewsletterPopUpProps> = ({
                       Keep in touch!
                     </h4>
                     <p className="text-slate-600 mb-5 text-sm">
-                      Sign up we'll send you a seasonal recipe, easy gardening
+                      Sign up we&#39;ll send you a seasonal recipe, easy gardening
                       idea, or fun entertaining tip that you can do at home.
                       (Know that I respect your privacy and will never ever
                       share your information.)

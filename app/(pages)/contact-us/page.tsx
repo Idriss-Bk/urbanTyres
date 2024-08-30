@@ -40,7 +40,7 @@ const ContactUs = () => {
           </article>
           <section>
             <p className="text-slate-800 font-normal text-lg">
-            Have a question or feedback about our tyres? We're always eager to hear from our customers. Whether you want to comment on a specific product or share an idea, please fill out the form below. Alternatively, you can reach us directly at: contact@urbantyres.co.uk.
+            Have a question or feedback about our tyres? We&#39;re always eager to hear from our customers. Whether you want to comment on a specific product or share an idea, please fill out the form below. Alternatively, you can reach us directly at: contact@urbantyres.co.uk.
             </p>
             <form action="" className="mt-8">
               <div className="grid grid-cols-2 gap-6 mb-6">

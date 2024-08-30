@@ -35,7 +35,7 @@ const AboutMe = () => {
                   className={`absolute inset-0 rounded-lg bg-gradient-to-t from-orange-600/45 to-transparent opacity-75`}
                 ></div>
               </div>
-              <p className="text-md text-slate-700 mt-5">Joel Matthews: Your Virtual Tyre Technician. I combine the knowledge of tyre specialists, automotive enthusiasts, and industry experts to simplify tyre maintenance and selection for all experience levels. I'm here to guide you through each step, offering tips and tricks to help you choose and maintain the perfect tyres.</p>
+              <p className="text-md text-slate-700 mt-5">Joel Matthews: Your Virtual Tyre Technician. I combine the knowledge of tyre specialists, automotive enthusiasts, and industry experts to simplify tyre maintenance and selection for all experience levels. I&#39;m here to guide you through each step, offering tips and tricks to help you choose and maintain the perfect tyres.</p>
             </section>
   )
 }
