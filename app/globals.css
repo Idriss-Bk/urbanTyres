@@ -1,33 +1,110 @@
+@font-face {
+  font-family: "GTSuper";
+  src: url(../public/assets/gtsuper.otf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-slate-50;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fdba74;
+  transition: width 0.3s ease-in-out;
+}
+.animated-underline:hover::after {
+  width: 100%;
+}
+
+.post_content p {
+  margin-bottom: 30px;
+}
+.post_content h2,
+.post_content h3,
+.post_content h4 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "GTSuper";
+}
+.post_content a {
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: #fdba74;
+  transition: 0.3s;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.post_content a:hover {
+  background-color: #fed7aa;
+}
+.post_content figure {
+  margin-bottom: 35px;
+}
+.post_content figure img {
+  border-radius: 10px;
+  border: 1px solid rgb(209, 212, 219) !important;
+}
+
+.sidebarlist li {
+  counter-increment: list-counter; /* Increment the counter */
+  position: relative;
+  padding-left: 2rem;
+}
+
+.sidebarlist li::before {
+  content: counter(list-counter);
+  position: absolute;
+  left: 0;
+  top: 45%;
+  transform: translateY(-50%);
+  color: #034262;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2px;
+  display: flex;
+  padding-top: 1px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.875rem;
+  font-family: "__Vidaloka_8788ab";
+}
+.sidebarlist li::marker {
+  display: none !important;
+}
+
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f97316;
+  transition: width 0.3s ease-in-out;
+}
+.animated-underline:hover::after {
+  width: 100%;
+}
+
+
+.toc-link.active {
+  color: #f97316; /* The color you want for the active link */
+  font-weight: bold;
 }
