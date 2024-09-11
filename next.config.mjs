@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ["dev-urbantyres.pantheonsite.io", "dev-padre.pantheonsite.io"],
+        domains: ["cyclewaycoffee.us.to", "secure.gravatar.com"],
     },
     compress: false,
 };

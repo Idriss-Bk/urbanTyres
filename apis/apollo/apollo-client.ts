@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 
 const httpLink = createHttpLink({
-  uri: `https://dev-padre.pantheonsite.io/graphql`,
+  uri: `https://cyclewaycoffee.us.to/tyres/graphql`,
 });
 
 const client = new ApolloClient({

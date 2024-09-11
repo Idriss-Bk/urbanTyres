@@ -5,7 +5,7 @@ export interface Category {
   id: string;
   name: string;
   slug: string;
-  featuredImage: string;
+  categoryImage: string;
   conetnt: string;
   posts: {
     nodes: {
@@ -30,7 +30,7 @@ const GET_CATEGORIES = gql`
         id
         name
         slug
-        featuredImage
+        categoryImage
         posts {
           nodes {
             slug

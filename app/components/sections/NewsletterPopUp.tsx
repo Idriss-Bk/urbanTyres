@@ -1,6 +1,6 @@
 import React from "react";
 import { IoMdClose } from "react-icons/io";
-import Jeol from "@/public/tyres/about/joel-matthews.jpg";
+import Jeol from "@/public/tyres/about/my-self.jpeg";
 import Image from "next/image";
 import { Pinyon_Script } from "next/font/google";
 import localfont from "next/font/local";

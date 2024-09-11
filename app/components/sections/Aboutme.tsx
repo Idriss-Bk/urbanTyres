@@ -34,7 +34,7 @@ const Aboutme = async () => {
                   width={0}
                   height={0}
                   quality={100}
-                  objectFit="contain"
+                  objectFit="cover"
                   layout="responsive"
                 />
                 <div

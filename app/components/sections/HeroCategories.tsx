@@ -22,7 +22,7 @@ const FeaturedCategories = async () => {
               >
                 <article className="bg-white border-2 rounded border-slate-200 h-32 flex justify-center items-center flex-col">
                   <Image
-                    src={`${category.featuredImage}`}
+                    src={`${category.categoryImage}`}
                     alt={category.name}
                     width={500}
                     height={500}

@@ -23,7 +23,7 @@ type Menu = {
 
 export async function getMenus(): Promise<Menu[] | null> {
   try {
-    const res = await fetch(`https://dev-padre.pantheonsite.io/graphql`, {
+    const res = await fetch(`https://cyclewaycoffee.us.to/tyres/graphql`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

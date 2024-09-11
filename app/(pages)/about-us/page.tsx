@@ -2,7 +2,7 @@ import React from "react";
 import localfont from "next/font/local";
 import { Metadata } from "next";
 import Image from "next/image";
-import JoelMatthews from "@/public/tyres/about/joel-matthews.jpg";
+import JoelMatthews from "@/public/tyres/about/my-self.jpeg";
 
 export const metadata: Metadata = {
   title: {
